@@ -4,7 +4,6 @@
 To write an assembly language program in 8086 to generate Sawtooth and Square waveforms using DAC.
 
 ## APPARATUS REQUIRED
-
 | S. No | Item              | Specification   | Quantity |
 |-------|------------------|-----------------|----------|
 | 1     | Microprocessor kit | 8086            | 1        |
@@ -32,8 +31,6 @@ To write an assembly language program in 8086 to generate Sawtooth and Square wa
 3. Increment the accumulator.  
 4. Repeat step (ii) and (iii) until accumulator value reaches FF.  
 5. Repeat the above procedure from step 1.  
-
----
 
 ## PROGRAMS
 
@@ -71,15 +68,12 @@ To write an assembly language program in 8086 to generate Sawtooth and Square wa
 | `1007`          | `JNC LOOP`           | Jump if no carry (continue loop) |
 | `1009`          | `JMP START`          | Go to starting location         |
 
----
-
 ## Tabulation
 
 | Waveform  | Amplitude | Time period | 
 |-----------|-----------|-------------|
 | Sawtooth  |    5 V    |    934 us   | 
 | Square    |   5.6 V   |   7.601 ms  |
----
 
 ## Model Graph
 
@@ -88,14 +82,9 @@ To write an assembly language program in 8086 to generate Sawtooth and Square wa
 
 
 ## OUTPUT IMAGE OF DAC(SAWTOOTH WAVE FROM DSO AND SQUARE WAVE FROM DSO)
-<img width="733" height="574" alt="image" src="https://github.com/user-attachments/assets/fefa24b3-ae57-4b9c-be4a-b799c7f5dac8" />
-
-<img width="677" height="532" alt="image" src="https://github.com/user-attachments/assets/cc706569-7a9d-4d88-a6e0-bc003e7c0d77" />
-
-
+<img width="336" height="264" alt="image" src="https://github.com/user-attachments/assets/5874e565-e240-4033-97cf-d1f5e3d269f5" />
 
 ## Result
-
 Thus, the **DAC was interfaced with 8086** and different **waveforms** were successfully generated.
 
 
