@@ -32,7 +32,9 @@ To write an assembly language program in 8086 to generate Sawtooth and Square wa
 2. Send this value to DAC.  
 3. Increment the accumulator.  
 4. Repeat step (ii) and (iii) until accumulator value reaches FF.  
-5. Repeat the above procedure from step 1.  
+5. Repeat the above procedure from step 1.
+
+  
 
 ## PROGRAMS
 
