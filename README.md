@@ -54,6 +54,9 @@ To write an assembly language program in 8086 to generate Sawtooth and Square wa
 
 
 
+
+
+
 | Memory Location | Program     | Comments                          |
 |-----------------|-------------|-----------------------------------|
 | 1100            | MOV CX,0505  | Load 0505H in Accumulator           |
