@@ -14,7 +14,9 @@ To write an assembly language program in 8086 to generate Sawtooth and Square wa
 
 ### Measurement of Analog Voltage
 1. Send the digital value to DAC.  
-2. Read the corresponding analog value at its output.  
+2. Read the corresponding analog value at its output.
+
+
 
 ### Waveform Generation
 
@@ -50,6 +52,8 @@ To write an assembly language program in 8086 to generate Sawtooth and Square wa
 
 
 
+
+
 | Memory Location | Program     | Comments                          |
 |-----------------|-------------|-----------------------------------|
 | 1100            | MOV CX,0505  | Load 0505H in Accumulator           |
@@ -76,6 +80,9 @@ To write an assembly language program in 8086 to generate Sawtooth and Square wa
 |-----------|-----------|-------------|
 | Sawtooth  |    5 V    |    934 us   | 
 | Square    |   5.6 V   |   7.601 ms  |
+
+
+
 
 ## Model Graph
 
