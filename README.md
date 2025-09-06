@@ -48,6 +48,8 @@ To write an assembly language program in 8086 to generate Sawtooth and Square wa
 | 100D            |  CALL DELAY(1100) | CALL PROGRAM TO 1100       |
 
 
+
+
 | Memory Location | Program     | Comments                          |
 |-----------------|-------------|-----------------------------------|
 | 1100            | MOV CX,0505  | Load 0505H in Accumulator           |
@@ -78,6 +80,8 @@ To write an assembly language program in 8086 to generate Sawtooth and Square wa
 ## Model Graph
 
 <img width="760" height="973" alt="image" src="https://github.com/user-attachments/assets/f3bde050-252c-4917-a3b9-7ce0e600e183" />
+
+
 
 ## OUTPUT IMAGE OF DAC(SAWTOOTH WAVE FROM DSO AND SQUARE WAVE FROM DSO)
 
